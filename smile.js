@@ -1,6 +1,6 @@
-var makerjs = require('makerjs');
+import * as makerjs from 'makerjs';
 
-function smile(span, teeth, droop, dainty, gaze, heady) {
+export function Smile(span, teeth, droop, dainty, gaze, heady) {
 
     this.paths = {
         head: new makerjs.paths.Circle([0, 0], 27),
@@ -17,7 +17,7 @@ function smile(span, teeth, droop, dainty, gaze, heady) {
     };
 }
 
-smile.metaParameters = [
+Smile.metaParameters = [
     { title: "smile span", type: "range", min: 0, max: 90, value: 45 },
     { title: "toothiness", type: "range", min: 0, max: 1, step: 0.5, value: 3 },
     { title: "droopiness", type: "range", min: -10, max: 20, step: 1, value: 8 },
@@ -25,5 +25,3 @@ smile.metaParameters = [
     { title: "gazyness", type: "range", min: 0.5, max: 10, step: .5, value: 4 },
     { title: "headyness", type: "range", min: 0.5, max: 20, step: .5, value: 8 }
 ];
-
-module.exports = smile;
