@@ -20,5 +20,5 @@ This will start a Parcel development web server, and automatically open http://l
 
 # Modify
 * Edit `smile.js` and save. The browser page will show your new drawing automatically. 
-* Change parameters in `index.js`
+* Change parameters in `index.js`.
 * Add other modules in `package.json` and `require` them, parcel will handle all the module bundling for you!
