@@ -1,0 +1,15 @@
+{
+  "name": "makerjs-simple-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "makerjs": "^0.17.0",
+    "parcel": "^1.12.4"
+  }
+}
