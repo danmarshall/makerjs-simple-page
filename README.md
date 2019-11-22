@@ -1,7 +1,7 @@
 # makerjs-simple-page
 Simple Maker.js project environment
 
-This will give you a basic page for developing and viewing you Maker.js model. Thanks to [Parcel](https://parceljs.org/) you will get hot module reloading. This means that when you edit/save a file, the page will refresh automatically.
+This will give you a basic page for developing and viewing your Maker.js model. Thanks to [Parcel](https://parceljs.org/) you will get hot module reloading. This means that when you edit/save a file, the page will refresh automatically.
 
 ## Setup
 ```
